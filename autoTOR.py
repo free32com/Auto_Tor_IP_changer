@@ -57,7 +57,7 @@ from mrFD
 print("\033[1;40;31m http://facebook.com/ninja.hackerz.kurdish/\n")
 
 os.system("service tor start")
-
+print('[>] Service tor is started.')
 
 
 
