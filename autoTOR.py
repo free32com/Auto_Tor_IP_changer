@@ -4,8 +4,7 @@ import time
 import os
 import subprocess
 
-
-
+os.system("sudo apt-get install tor & sudo apt-get install privoxy &")
 
 try:
     check_pip3 = subprocess.check_output('dpkg -s python3-pip', shell=True)
